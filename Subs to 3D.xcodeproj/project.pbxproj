@@ -11,6 +11,12 @@
 		99D33CB9278A0A72009F83CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D33CB8278A0A72009F83CC /* ViewController.swift */; };
 		99D33CBB278A0A73009F83CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D33CBA278A0A73009F83CC /* Assets.xcassets */; };
 		99D33CBE278A0A73009F83CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D33CBC278A0A73009F83CC /* Main.storyboard */; };
+		99D33CD5278A0B54009F83CC /* subass.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D33CC9278A0B54009F83CC /* subass.c */; };
+		99D33CD6278A0B54009F83CC /* subsrt_ass.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D33CCA278A0B54009F83CC /* subsrt_ass.c */; };
+		99D33CD7278A0B54009F83CC /* subass3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D33CCF278A0B54009F83CC /* subass3d.c */; };
+		99D33CD8278A0B54009F83CC /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D33CD1278A0B54009F83CC /* utils.c */; };
+		99D33CD9278A0B54009F83CC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D33CD2278A0B54009F83CC /* main.c */; };
+		99D33CDA278A0B54009F83CC /* subsrt.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D33CD3278A0B54009F83CC /* subsrt.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,20 @@
 		99D33CBA278A0A73009F83CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D33CBD278A0A73009F83CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99D33CBF278A0A73009F83CC /* Subs_to_3D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Subs_to_3D.entitlements; sourceTree = "<group>"; };
+		99D33CC5278A0B2A009F83CC /* Subs to 3D-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Subs to 3D-Bridging-Header.h"; sourceTree = "<group>"; };
+		99D33CC9278A0B54009F83CC /* subass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subass.c; sourceTree = "<group>"; };
+		99D33CCA278A0B54009F83CC /* subsrt_ass.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subsrt_ass.c; sourceTree = "<group>"; };
+		99D33CCB278A0B54009F83CC /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		99D33CCC278A0B54009F83CC /* subass3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subass3d.h; sourceTree = "<group>"; };
+		99D33CCD278A0B54009F83CC /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		99D33CCE278A0B54009F83CC /* subsrt_ass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subsrt_ass.h; sourceTree = "<group>"; };
+		99D33CCF278A0B54009F83CC /* subass3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subass3d.c; sourceTree = "<group>"; };
+		99D33CD0278A0B54009F83CC /* subsrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subsrt.h; sourceTree = "<group>"; };
+		99D33CD1278A0B54009F83CC /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		99D33CD2278A0B54009F83CC /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		99D33CD3278A0B54009F83CC /* subsrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subsrt.c; sourceTree = "<group>"; };
+		99D33CD4278A0B54009F83CC /* subass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subass.h; sourceTree = "<group>"; };
+		99D33CDB278A0EC4009F83CC /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,20 @@
 				99D33CBA278A0A73009F83CC /* Assets.xcassets */,
 				99D33CBC278A0A73009F83CC /* Main.storyboard */,
 				99D33CBF278A0A73009F83CC /* Subs_to_3D.entitlements */,
+				99D33CC5278A0B2A009F83CC /* Subs to 3D-Bridging-Header.h */,
+				99D33CCD278A0B54009F83CC /* global.h */,
+				99D33CD2278A0B54009F83CC /* main.c */,
+				99D33CC9278A0B54009F83CC /* subass.c */,
+				99D33CD4278A0B54009F83CC /* subass.h */,
+				99D33CCF278A0B54009F83CC /* subass3d.c */,
+				99D33CCC278A0B54009F83CC /* subass3d.h */,
+				99D33CCA278A0B54009F83CC /* subsrt_ass.c */,
+				99D33CCE278A0B54009F83CC /* subsrt_ass.h */,
+				99D33CD3278A0B54009F83CC /* subsrt.c */,
+				99D33CD0278A0B54009F83CC /* subsrt.h */,
+				99D33CD1278A0B54009F83CC /* utils.c */,
+				99D33CCB278A0B54009F83CC /* utils.h */,
+				99D33CDB278A0EC4009F83CC /* main.h */,
 			);
 			path = "Subs to 3D";
 			sourceTree = "<group>";
@@ -93,6 +127,7 @@
 				TargetAttributes = {
 					99D33CB2278A0A71009F83CC = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -133,6 +168,12 @@
 			files = (
 				99D33CB9278A0A72009F83CC /* ViewController.swift in Sources */,
 				99D33CB7278A0A72009F83CC /* AppDelegate.swift in Sources */,
+				99D33CD6278A0B54009F83CC /* subsrt_ass.c in Sources */,
+				99D33CD8278A0B54009F83CC /* utils.c in Sources */,
+				99D33CDA278A0B54009F83CC /* subsrt.c in Sources */,
+				99D33CD7278A0B54009F83CC /* subass3d.c in Sources */,
+				99D33CD5278A0B54009F83CC /* subass.c in Sources */,
+				99D33CD9278A0B54009F83CC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Subs to 3D/Subs_to_3D.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -288,6 +330,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "touev.konstantin.Subs-to-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Subs to 3D/Subs to 3D-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -297,6 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Subs to 3D/Subs_to_3D.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -315,6 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "touev.konstantin.Subs-to-3D";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Subs to 3D/Subs to 3D-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
