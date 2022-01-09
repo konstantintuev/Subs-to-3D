@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -277,7 +278,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Subs to 3D Converter" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Subtitles to 3D Converter" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -316,8 +317,8 @@ Destination: ASS subtitle file (3D)</string>
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="b6l-Xd-wT2">
-                                <rect key="frame" x="161" y="183" width="156" height="18"/>
-                                <buttonCell key="cell" type="radio" title="Side-By-Side subtitle" bezelStyle="regularSquare" imagePosition="left" alignment="center" state="on" inset="2" id="wFU-8K-vST">
+                                <rect key="frame" x="158" y="183" width="163" height="18"/>
+                                <buttonCell key="cell" type="radio" title="Side-By-Side subtitles" bezelStyle="regularSquare" imagePosition="left" alignment="center" state="on" inset="2" id="wFU-8K-vST">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -326,8 +327,8 @@ Destination: ASS subtitle file (3D)</string>
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5Iq-KT-53Y">
-                                <rect key="frame" x="161" y="149" width="156" height="18"/>
-                                <buttonCell key="cell" type="radio" title="Top-Bottom subtitle" bezelStyle="regularSquare" imagePosition="left" alignment="center" inset="2" id="CWT-jc-Ed8">
+                                <rect key="frame" x="158" y="149" width="163" height="18"/>
+                                <buttonCell key="cell" type="radio" title="Top-Bottom subtitles" bezelStyle="regularSquare" imagePosition="left" alignment="center" inset="2" id="CWT-jc-Ed8">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
